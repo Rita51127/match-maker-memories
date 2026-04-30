@@ -33,10 +33,14 @@ export const Route = createRootRoute({
       { name: "description", content: "A fun memory card matching game. Flip cards, find pairs, beat your best time!" },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "Memory Match — Card Matching Game" },
-      { property: "og:description", content: "Flip cards, find pairs, save your score." },
+      { property: "og:description", content: "A fun memory card matching game. Flip cards, find pairs, beat your best time!" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Memory Match — Card Matching Game" },
+      { name: "twitter:description", content: "A fun memory card matching game. Flip cards, find pairs, beat your best time!" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbc52010-101c-4b9d-bd28-ccdb3b3756cb/id-preview-7d986848--b4d3104c-826b-4f4f-8d41-5a030d378af9.lovable.app-1777591071686.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbc52010-101c-4b9d-bd28-ccdb3b3756cb/id-preview-7d986848--b4d3104c-826b-4f4f-8d41-5a030d378af9.lovable.app-1777591071686.png" },
     ],
     links: [
       {
