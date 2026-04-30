@@ -97,6 +97,26 @@
   --sidebar-ring: oklch(0.704 0.04 256.788);
 }
 
+  /* Memory game tokens */
+  :root {
+    --card-back: oklch(0.55 0.22 280);
+    --card-back-2: oklch(0.65 0.20 320);
+    --card-front: oklch(0.98 0.01 280);
+    --card-matched: oklch(0.75 0.18 145);
+    --shadow-card: 0 10px 30px -10px oklch(0.2 0.1 280 / 0.4);
+    --gradient-bg: linear-gradient(135deg, oklch(0.97 0.02 280), oklch(0.95 0.03 320));
+    --gradient-card: linear-gradient(135deg, var(--card-back), var(--card-back-2));
+  }
+  .dark {
+    --card-back: oklch(0.45 0.20 280);
+    --card-back-2: oklch(0.50 0.22 320);
+    --card-front: oklch(0.22 0.04 265);
+    --card-matched: oklch(0.55 0.20 145);
+    --shadow-card: 0 10px 30px -10px oklch(0 0 0 / 0.6);
+    --gradient-bg: linear-gradient(135deg, oklch(0.13 0.04 265), oklch(0.18 0.06 290));
+    --gradient-card: linear-gradient(135deg, var(--card-back), var(--card-back-2));
+  }
+
 .dark {
   --background: oklch(0.129 0.042 264.695);
   --foreground: oklch(0.984 0.003 247.858);
